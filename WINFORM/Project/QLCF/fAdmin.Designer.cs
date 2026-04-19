@@ -176,7 +176,7 @@
             // 
             // btnView
             // 
-            btnView.Location = new Point(560, 2);
+            btnView.Location = new Point(1052, 1);
             btnView.Name = "btnView";
             btnView.Size = new Size(94, 29);
             btnView.TabIndex = 2;
