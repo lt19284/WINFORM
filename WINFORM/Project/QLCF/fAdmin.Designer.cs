@@ -57,9 +57,6 @@
             panel10 = new Panel();
             panel5 = new Panel();
             btnShowFood = new Button();
-            btnFix = new Button();
-            btnDeleteFood = new Button();
-            btnAddFood = new Button();
             panel4 = new Panel();
             dtgvFood = new DataGridView();
             tpCategory = new TabPage();
@@ -71,17 +68,9 @@
             textBox3 = new TextBox();
             panel18 = new Panel();
             panel13 = new Panel();
-            btnShowCategory = new Button();
-            btnEditCategory = new Button();
-            btnDeleteCategory = new Button();
-            btnAddCategory = new Button();
             dtgvCe = new DataGridView();
             tpTable = new TabPage();
             panel12 = new Panel();
-            btnShowTable = new Button();
-            btnEditTable = new Button();
-            btnDeleteTable = new Button();
-            btnAddTable = new Button();
             dtgvTable = new DataGridView();
             panel15 = new Panel();
             cbTableStatus = new ComboBox();
@@ -95,10 +84,6 @@
             panel19 = new Panel();
             tpAcc = new TabPage();
             panel21 = new Panel();
-            btnShowAccount = new Button();
-            btnEditAccount = new Button();
-            btnDeleteAccount = new Button();
-            btnAddAccount = new Button();
             dtgvAccount = new DataGridView();
             panel23 = new Panel();
             btnResetPassWord = new Button();
@@ -111,6 +96,33 @@
             label13 = new Label();
             txbUserName = new TextBox();
             panel27 = new Panel();
+            button1 = new Button();
+            button3 = new Button();
+            button4 = new Button();
+            button5 = new Button();
+            button6 = new Button();
+            button7 = new Button();
+            button8 = new Button();
+            button9 = new Button();
+            button10 = new Button();
+            button11 = new Button();
+            button12 = new Button();
+            button13 = new Button();
+            button14 = new Button();
+            button15 = new Button();
+            button16 = new Button();
+            comboBox2 = new ComboBox();
+            label10 = new Label();
+            panel24 = new Panel();
+            comboBox3 = new ComboBox();
+            label14 = new Label();
+            panel28 = new Panel();
+            label15 = new Label();
+            textBox7 = new TextBox();
+            panel29 = new Panel();
+            label16 = new Label();
+            textBox8 = new TextBox();
+            panel30 = new Panel();
             tcAdmin.SuspendLayout();
             tpBill.SuspendLayout();
             panel2.SuspendLayout();
@@ -227,7 +239,7 @@
             // 
             // panel3
             // 
-            panel3.BackColor = Color.Gold;
+            panel3.BackColor = Color.PaleGoldenrod;
             panel3.Controls.Add(panel11);
             panel3.Controls.Add(panel6);
             panel3.Controls.Add(panel5);
@@ -250,7 +262,7 @@
             // 
             // textBox6
             // 
-            textBox6.BackColor = Color.Gold;
+            textBox6.BackColor = Color.Lavender;
             textBox6.BorderStyle = BorderStyle.None;
             textBox6.Font = new Font("Showcard Gothic", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
             textBox6.Location = new Point(52, 21);
@@ -269,7 +281,7 @@
             // button2
             // 
             button2.BackColor = Color.GreenYellow;
-            button2.Font = new Font("Showcard Gothic", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            button2.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
             button2.Location = new Point(380, 5);
             button2.Name = "button2";
             button2.Size = new Size(94, 41);
@@ -283,13 +295,13 @@
             panel6.Controls.Add(numericUpDown1);
             panel6.Controls.Add(label1);
             panel6.Controls.Add(panel7);
+            panel6.Controls.Add(label4);
             panel6.Controls.Add(comboBox1);
             panel6.Controls.Add(label2);
             panel6.Controls.Add(panel8);
             panel6.Controls.Add(label3);
             panel6.Controls.Add(textBox4);
             panel6.Controls.Add(panel9);
-            panel6.Controls.Add(label4);
             panel6.Controls.Add(textBox5);
             panel6.Controls.Add(panel10);
             panel6.Location = new Point(593, 61);
@@ -301,19 +313,19 @@
             // 
             numericUpDown1.BackColor = Color.Gold;
             numericUpDown1.BorderStyle = BorderStyle.None;
-            numericUpDown1.Font = new Font("Showcard Gothic", 16.2F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point, 0);
-            numericUpDown1.Location = new Point(91, 177);
+            numericUpDown1.Font = new Font("Segoe UI", 16.2F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            numericUpDown1.Location = new Point(88, 180);
             numericUpDown1.Name = "numericUpDown1";
-            numericUpDown1.Size = new Size(465, 37);
+            numericUpDown1.Size = new Size(465, 39);
             numericUpDown1.TabIndex = 17;
             // 
             // label1
             // 
             label1.AutoSize = true;
-            label1.Font = new Font("Showcard Gothic", 16.2F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point, 0);
-            label1.Location = new Point(16, 179);
+            label1.Font = new Font("Segoe UI", 16.2F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point, 0);
+            label1.Location = new Point(17, 179);
             label1.Name = "label1";
-            label1.Size = new Size(76, 35);
+            label1.Size = new Size(71, 38);
             label1.TabIndex = 16;
             label1.Text = "Giá:";
             // 
@@ -332,18 +344,18 @@
             comboBox1.FlatStyle = FlatStyle.Popup;
             comboBox1.Font = new Font("Showcard Gothic", 18F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point, 0);
             comboBox1.FormattingEnabled = true;
-            comboBox1.Location = new Point(188, 115);
+            comboBox1.Location = new Point(175, 115);
             comboBox1.Name = "comboBox1";
-            comboBox1.Size = new Size(365, 45);
+            comboBox1.Size = new Size(378, 45);
             comboBox1.TabIndex = 14;
             // 
             // label2
             // 
             label2.AutoSize = true;
-            label2.Font = new Font("Showcard Gothic", 16.2F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point, 0);
+            label2.Font = new Font("Segoe UI", 16.2F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point, 0);
             label2.Location = new Point(16, 125);
             label2.Name = "label2";
-            label2.Size = new Size(176, 35);
+            label2.Size = new Size(159, 38);
             label2.TabIndex = 13;
             label2.Text = "Danh Mục:";
             // 
@@ -359,10 +371,10 @@
             // label3
             // 
             label3.AutoSize = true;
-            label3.Font = new Font("Showcard Gothic", 16.2F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point, 0);
+            label3.Font = new Font("Segoe UI", 16.2F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point, 0);
             label3.Location = new Point(16, 66);
             label3.Name = "label3";
-            label3.Size = new Size(153, 35);
+            label3.Size = new Size(138, 38);
             label3.TabIndex = 10;
             label3.Text = "Tên Món:";
             // 
@@ -372,10 +384,10 @@
             textBox4.BorderStyle = BorderStyle.None;
             textBox4.Font = new Font("Showcard Gothic", 18F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point, 0);
             textBox4.ForeColor = Color.Black;
-            textBox4.Location = new Point(169, 63);
+            textBox4.Location = new Point(152, 63);
             textBox4.Name = "textBox4";
             textBox4.ReadOnly = true;
-            textBox4.Size = new Size(384, 38);
+            textBox4.Size = new Size(401, 38);
             textBox4.TabIndex = 8;
             textBox4.TextAlign = HorizontalAlignment.Center;
             // 
@@ -391,12 +403,13 @@
             // label4
             // 
             label4.AutoSize = true;
-            label4.Font = new Font("Showcard Gothic", 16.2F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point, 0);
-            label4.Location = new Point(45, 11);
+            label4.Font = new Font("Segoe UI", 16.2F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point, 0);
+            label4.Location = new Point(20, 8);
             label4.Name = "label4";
-            label4.Size = new Size(60, 35);
+            label4.Size = new Size(55, 38);
             label4.TabIndex = 7;
             label4.Text = "ID:";
+            label4.Click += label4_Click;
             // 
             // textBox5
             // 
@@ -404,9 +417,9 @@
             textBox5.BorderStyle = BorderStyle.None;
             textBox5.Font = new Font("Showcard Gothic", 18F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point, 0);
             textBox5.ForeColor = Color.Black;
-            textBox5.Location = new Point(103, 8);
+            textBox5.Location = new Point(74, 8);
             textBox5.Name = "textBox5";
-            textBox5.Size = new Size(450, 38);
+            textBox5.Size = new Size(484, 38);
             textBox5.TabIndex = 5;
             textBox5.TextAlign = HorizontalAlignment.Center;
             // 
@@ -422,10 +435,10 @@
             // panel5
             // 
             panel5.BackColor = Color.Gold;
+            panel5.Controls.Add(button4);
+            panel5.Controls.Add(button3);
+            panel5.Controls.Add(button1);
             panel5.Controls.Add(btnShowFood);
-            panel5.Controls.Add(btnFix);
-            panel5.Controls.Add(btnDeleteFood);
-            panel5.Controls.Add(btnAddFood);
             panel5.Location = new Point(3, 6);
             panel5.Name = "panel5";
             panel5.Size = new Size(584, 49);
@@ -434,46 +447,14 @@
             // btnShowFood
             // 
             btnShowFood.BackColor = Color.GreenYellow;
-            btnShowFood.Font = new Font("Showcard Gothic", 9F, FontStyle.Bold);
-            btnShowFood.Location = new Point(303, 3);
+            btnShowFood.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            btnShowFood.Location = new Point(443, -1);
             btnShowFood.Name = "btnShowFood";
-            btnShowFood.Size = new Size(94, 41);
+            btnShowFood.Size = new Size(139, 49);
             btnShowFood.TabIndex = 3;
             btnShowFood.Text = "Xem";
             btnShowFood.UseVisualStyleBackColor = false;
-            // 
-            // btnFix
-            // 
-            btnFix.BackColor = Color.GreenYellow;
-            btnFix.Font = new Font("Showcard Gothic", 9F, FontStyle.Bold);
-            btnFix.Location = new Point(203, 3);
-            btnFix.Name = "btnFix";
-            btnFix.Size = new Size(94, 41);
-            btnFix.TabIndex = 2;
-            btnFix.Text = "Sửa";
-            btnFix.UseVisualStyleBackColor = false;
-            // 
-            // btnDeleteFood
-            // 
-            btnDeleteFood.BackColor = Color.GreenYellow;
-            btnDeleteFood.Font = new Font("Showcard Gothic", 9F, FontStyle.Bold);
-            btnDeleteFood.Location = new Point(103, 3);
-            btnDeleteFood.Name = "btnDeleteFood";
-            btnDeleteFood.Size = new Size(94, 41);
-            btnDeleteFood.TabIndex = 1;
-            btnDeleteFood.Text = "Xóa";
-            btnDeleteFood.UseVisualStyleBackColor = false;
-            // 
-            // btnAddFood
-            // 
-            btnAddFood.BackColor = Color.GreenYellow;
-            btnAddFood.Font = new Font("Showcard Gothic", 9F, FontStyle.Bold);
-            btnAddFood.Location = new Point(3, 3);
-            btnAddFood.Name = "btnAddFood";
-            btnAddFood.Size = new Size(94, 41);
-            btnAddFood.TabIndex = 0;
-            btnAddFood.Text = "Thêm";
-            btnAddFood.UseVisualStyleBackColor = false;
+            btnShowFood.Click += btnShowFood_Click;
             // 
             // panel4
             // 
@@ -522,10 +503,10 @@
             // label7
             // 
             label7.AutoSize = true;
-            label7.Font = new Font("Showcard Gothic", 16.2F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point, 0);
+            label7.Font = new Font("Segoe UI", 16.2F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point, 0);
             label7.Location = new Point(16, 66);
             label7.Name = "label7";
-            label7.Size = new Size(238, 35);
+            label7.Size = new Size(215, 38);
             label7.TabIndex = 10;
             label7.Text = "Tên Danh Mục:";
             // 
@@ -535,10 +516,10 @@
             textBox2.BorderStyle = BorderStyle.None;
             textBox2.Font = new Font("Showcard Gothic", 18F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point, 0);
             textBox2.ForeColor = Color.Black;
-            textBox2.Location = new Point(252, 63);
+            textBox2.Location = new Point(228, 63);
             textBox2.Name = "textBox2";
             textBox2.ReadOnly = true;
-            textBox2.Size = new Size(301, 38);
+            textBox2.Size = new Size(325, 38);
             textBox2.TabIndex = 8;
             textBox2.TextAlign = HorizontalAlignment.Center;
             // 
@@ -554,10 +535,10 @@
             // label8
             // 
             label8.AutoSize = true;
-            label8.Font = new Font("Showcard Gothic", 16.2F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point, 0);
-            label8.Location = new Point(45, 11);
+            label8.Font = new Font("Segoe UI", 16.2F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point, 0);
+            label8.Location = new Point(19, 14);
             label8.Name = "label8";
-            label8.Size = new Size(60, 35);
+            label8.Size = new Size(55, 38);
             label8.TabIndex = 7;
             label8.Text = "ID:";
             // 
@@ -567,9 +548,9 @@
             textBox3.BorderStyle = BorderStyle.None;
             textBox3.Font = new Font("Showcard Gothic", 18F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point, 0);
             textBox3.ForeColor = Color.Black;
-            textBox3.Location = new Point(103, 8);
+            textBox3.Location = new Point(72, 8);
             textBox3.Name = "textBox3";
-            textBox3.Size = new Size(450, 38);
+            textBox3.Size = new Size(480, 38);
             textBox3.TabIndex = 5;
             textBox3.TextAlign = HorizontalAlignment.Center;
             // 
@@ -584,54 +565,14 @@
             // 
             // panel13
             // 
-            panel13.Controls.Add(btnShowCategory);
-            panel13.Controls.Add(btnEditCategory);
-            panel13.Controls.Add(btnDeleteCategory);
-            panel13.Controls.Add(btnAddCategory);
+            panel13.Controls.Add(button5);
+            panel13.Controls.Add(button6);
+            panel13.Controls.Add(button7);
+            panel13.Controls.Add(button8);
             panel13.Location = new Point(7, 6);
             panel13.Name = "panel13";
             panel13.Size = new Size(584, 49);
             panel13.TabIndex = 4;
-            // 
-            // btnShowCategory
-            // 
-            btnShowCategory.BackColor = Color.GreenYellow;
-            btnShowCategory.Location = new Point(303, 3);
-            btnShowCategory.Name = "btnShowCategory";
-            btnShowCategory.Size = new Size(94, 41);
-            btnShowCategory.TabIndex = 3;
-            btnShowCategory.Text = "Xem";
-            btnShowCategory.UseVisualStyleBackColor = false;
-            // 
-            // btnEditCategory
-            // 
-            btnEditCategory.BackColor = Color.GreenYellow;
-            btnEditCategory.Location = new Point(203, 3);
-            btnEditCategory.Name = "btnEditCategory";
-            btnEditCategory.Size = new Size(94, 41);
-            btnEditCategory.TabIndex = 2;
-            btnEditCategory.Text = "Sửa";
-            btnEditCategory.UseVisualStyleBackColor = false;
-            // 
-            // btnDeleteCategory
-            // 
-            btnDeleteCategory.BackColor = Color.GreenYellow;
-            btnDeleteCategory.Location = new Point(103, 3);
-            btnDeleteCategory.Name = "btnDeleteCategory";
-            btnDeleteCategory.Size = new Size(94, 41);
-            btnDeleteCategory.TabIndex = 1;
-            btnDeleteCategory.Text = "Xóa";
-            btnDeleteCategory.UseVisualStyleBackColor = false;
-            // 
-            // btnAddCategory
-            // 
-            btnAddCategory.BackColor = Color.GreenYellow;
-            btnAddCategory.Location = new Point(3, 3);
-            btnAddCategory.Name = "btnAddCategory";
-            btnAddCategory.Size = new Size(94, 41);
-            btnAddCategory.TabIndex = 0;
-            btnAddCategory.Text = "Thêm";
-            btnAddCategory.UseVisualStyleBackColor = false;
             // 
             // dtgvCe
             // 
@@ -657,54 +598,14 @@
             // 
             // panel12
             // 
-            panel12.Controls.Add(btnShowTable);
-            panel12.Controls.Add(btnEditTable);
-            panel12.Controls.Add(btnDeleteTable);
-            panel12.Controls.Add(btnAddTable);
+            panel12.Controls.Add(button9);
+            panel12.Controls.Add(button10);
+            panel12.Controls.Add(button11);
+            panel12.Controls.Add(button12);
             panel12.Location = new Point(6, 6);
             panel12.Name = "panel12";
             panel12.Size = new Size(584, 49);
             panel12.TabIndex = 8;
-            // 
-            // btnShowTable
-            // 
-            btnShowTable.BackColor = Color.YellowGreen;
-            btnShowTable.Location = new Point(303, 3);
-            btnShowTable.Name = "btnShowTable";
-            btnShowTable.Size = new Size(94, 41);
-            btnShowTable.TabIndex = 3;
-            btnShowTable.Text = "Xem";
-            btnShowTable.UseVisualStyleBackColor = false;
-            // 
-            // btnEditTable
-            // 
-            btnEditTable.BackColor = Color.YellowGreen;
-            btnEditTable.Location = new Point(203, 3);
-            btnEditTable.Name = "btnEditTable";
-            btnEditTable.Size = new Size(94, 41);
-            btnEditTable.TabIndex = 2;
-            btnEditTable.Text = "Sửa";
-            btnEditTable.UseVisualStyleBackColor = false;
-            // 
-            // btnDeleteTable
-            // 
-            btnDeleteTable.BackColor = Color.YellowGreen;
-            btnDeleteTable.Location = new Point(103, 3);
-            btnDeleteTable.Name = "btnDeleteTable";
-            btnDeleteTable.Size = new Size(94, 41);
-            btnDeleteTable.TabIndex = 1;
-            btnDeleteTable.Text = "Xóa";
-            btnDeleteTable.UseVisualStyleBackColor = false;
-            // 
-            // btnAddTable
-            // 
-            btnAddTable.BackColor = Color.YellowGreen;
-            btnAddTable.Location = new Point(3, 3);
-            btnAddTable.Name = "btnAddTable";
-            btnAddTable.Size = new Size(94, 41);
-            btnAddTable.TabIndex = 0;
-            btnAddTable.Text = "Thêm";
-            btnAddTable.UseVisualStyleBackColor = false;
             // 
             // dtgvTable
             // 
@@ -717,6 +618,12 @@
             // 
             // panel15
             // 
+            panel15.Controls.Add(comboBox3);
+            panel15.Controls.Add(label14);
+            panel15.Controls.Add(panel28);
+            panel15.Controls.Add(comboBox2);
+            panel15.Controls.Add(label10);
+            panel15.Controls.Add(panel24);
             panel15.Controls.Add(cbTableStatus);
             panel15.Controls.Add(label9);
             panel15.Controls.Add(panel20);
@@ -735,20 +642,20 @@
             // 
             cbTableStatus.BackColor = Color.Gold;
             cbTableStatus.FormattingEnabled = true;
-            cbTableStatus.Location = new Point(216, 132);
+            cbTableStatus.Location = new Point(146, 132);
             cbTableStatus.Name = "cbTableStatus";
-            cbTableStatus.Size = new Size(340, 28);
+            cbTableStatus.Size = new Size(414, 28);
             cbTableStatus.TabIndex = 14;
             // 
             // label9
             // 
             label9.AutoSize = true;
-            label9.Font = new Font("Showcard Gothic", 16.2F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point, 0);
+            label9.Font = new Font("Segoe UI", 16.2F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label9.Location = new Point(18, 125);
             label9.Name = "label9";
-            label9.Size = new Size(199, 35);
+            label9.Size = new Size(128, 38);
             label9.TabIndex = 13;
-            label9.Text = "Trạng Thái:";
+            label9.Text = "Loại bàn";
             // 
             // panel20
             // 
@@ -762,10 +669,10 @@
             // label5
             // 
             label5.AutoSize = true;
-            label5.Font = new Font("Showcard Gothic", 16.2F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point, 0);
+            label5.Font = new Font("Segoe UI", 16.2F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label5.Location = new Point(16, 66);
             label5.Name = "label5";
-            label5.Size = new Size(146, 35);
+            label5.Size = new Size(128, 38);
             label5.TabIndex = 10;
             label5.Text = "Tên Bàn:";
             // 
@@ -775,10 +682,10 @@
             txbTableName.BorderStyle = BorderStyle.None;
             txbTableName.Font = new Font("Showcard Gothic", 18F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point, 0);
             txbTableName.ForeColor = Color.Black;
-            txbTableName.Location = new Point(160, 63);
+            txbTableName.Location = new Point(142, 63);
             txbTableName.Name = "txbTableName";
             txbTableName.ReadOnly = true;
-            txbTableName.Size = new Size(393, 38);
+            txbTableName.Size = new Size(411, 38);
             txbTableName.TabIndex = 8;
             txbTableName.TextAlign = HorizontalAlignment.Center;
             // 
@@ -794,10 +701,10 @@
             // label6
             // 
             label6.AutoSize = true;
-            label6.Font = new Font("Showcard Gothic", 16.2F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point, 0);
-            label6.Location = new Point(45, 11);
+            label6.Font = new Font("Segoe UI", 16.2F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label6.Location = new Point(16, 11);
             label6.Name = "label6";
-            label6.Size = new Size(60, 35);
+            label6.Size = new Size(55, 38);
             label6.TabIndex = 7;
             label6.Text = "ID:";
             // 
@@ -807,9 +714,9 @@
             textBox1.BorderStyle = BorderStyle.None;
             textBox1.Font = new Font("Showcard Gothic", 18F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point, 0);
             textBox1.ForeColor = Color.Black;
-            textBox1.Location = new Point(103, 8);
+            textBox1.Location = new Point(68, 8);
             textBox1.Name = "textBox1";
-            textBox1.Size = new Size(450, 38);
+            textBox1.Size = new Size(485, 38);
             textBox1.TabIndex = 5;
             textBox1.TextAlign = HorizontalAlignment.Center;
             // 
@@ -838,54 +745,14 @@
             // 
             // panel21
             // 
-            panel21.Controls.Add(btnShowAccount);
-            panel21.Controls.Add(btnEditAccount);
-            panel21.Controls.Add(btnDeleteAccount);
-            panel21.Controls.Add(btnAddAccount);
+            panel21.Controls.Add(button13);
+            panel21.Controls.Add(button14);
+            panel21.Controls.Add(button15);
+            panel21.Controls.Add(button16);
             panel21.Location = new Point(6, 6);
             panel21.Name = "panel21";
             panel21.Size = new Size(584, 49);
             panel21.TabIndex = 10;
-            // 
-            // btnShowAccount
-            // 
-            btnShowAccount.BackColor = Color.YellowGreen;
-            btnShowAccount.Location = new Point(303, 3);
-            btnShowAccount.Name = "btnShowAccount";
-            btnShowAccount.Size = new Size(94, 41);
-            btnShowAccount.TabIndex = 3;
-            btnShowAccount.Text = "Xem";
-            btnShowAccount.UseVisualStyleBackColor = false;
-            // 
-            // btnEditAccount
-            // 
-            btnEditAccount.BackColor = Color.YellowGreen;
-            btnEditAccount.Location = new Point(203, 3);
-            btnEditAccount.Name = "btnEditAccount";
-            btnEditAccount.Size = new Size(94, 41);
-            btnEditAccount.TabIndex = 2;
-            btnEditAccount.Text = "Sửa";
-            btnEditAccount.UseVisualStyleBackColor = false;
-            // 
-            // btnDeleteAccount
-            // 
-            btnDeleteAccount.BackColor = Color.YellowGreen;
-            btnDeleteAccount.Location = new Point(103, 3);
-            btnDeleteAccount.Name = "btnDeleteAccount";
-            btnDeleteAccount.Size = new Size(94, 41);
-            btnDeleteAccount.TabIndex = 1;
-            btnDeleteAccount.Text = "Xóa";
-            btnDeleteAccount.UseVisualStyleBackColor = false;
-            // 
-            // btnAddAccount
-            // 
-            btnAddAccount.BackColor = Color.YellowGreen;
-            btnAddAccount.Location = new Point(3, 3);
-            btnAddAccount.Name = "btnAddAccount";
-            btnAddAccount.Size = new Size(94, 41);
-            btnAddAccount.TabIndex = 0;
-            btnAddAccount.Text = "Thêm";
-            btnAddAccount.UseVisualStyleBackColor = false;
             // 
             // dtgvAccount
             // 
@@ -899,17 +766,23 @@
             // panel23
             // 
             panel23.BackgroundImageLayout = ImageLayout.None;
-            panel23.Controls.Add(btnResetPassWord);
             panel23.Controls.Add(cbAccountType);
+            panel23.Controls.Add(label16);
             panel23.Controls.Add(label11);
+            panel23.Controls.Add(label15);
             panel23.Controls.Add(panel25);
+            panel23.Controls.Add(btnResetPassWord);
             panel23.Controls.Add(label12);
             panel23.Controls.Add(txbDisplayName);
             panel23.Controls.Add(panel26);
+            panel23.Controls.Add(textBox7);
+            panel23.Controls.Add(textBox8);
             panel23.Controls.Add(label13);
+            panel23.Controls.Add(panel29);
             panel23.Controls.Add(txbUserName);
             panel23.Controls.Add(panel27);
-            panel23.Location = new Point(597, 61);
+            panel23.Controls.Add(panel30);
+            panel23.Location = new Point(597, 65);
             panel23.Name = "panel23";
             panel23.Size = new Size(556, 475);
             panel23.TabIndex = 11;
@@ -921,7 +794,7 @@
             btnResetPassWord.FlatStyle = FlatStyle.Flat;
             btnResetPassWord.Font = new Font("Segoe UI Symbol", 13.8F, FontStyle.Bold, GraphicsUnit.Point, 0);
             btnResetPassWord.ForeColor = Color.Red;
-            btnResetPassWord.Location = new Point(328, 169);
+            btnResetPassWord.Location = new Point(332, 325);
             btnResetPassWord.Name = "btnResetPassWord";
             btnResetPassWord.Size = new Size(225, 57);
             btnResetPassWord.TabIndex = 15;
@@ -935,18 +808,18 @@
             cbAccountType.FlatStyle = FlatStyle.Flat;
             cbAccountType.Font = new Font("Showcard Gothic", 18F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point, 0);
             cbAccountType.FormattingEnabled = true;
-            cbAccountType.Location = new Point(268, 115);
+            cbAccountType.Location = new Point(231, 239);
             cbAccountType.Name = "cbAccountType";
-            cbAccountType.Size = new Size(285, 45);
+            cbAccountType.Size = new Size(322, 45);
             cbAccountType.TabIndex = 14;
             // 
             // label11
             // 
             label11.AutoSize = true;
-            label11.Font = new Font("Showcard Gothic", 16.2F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point, 0);
-            label11.Location = new Point(16, 125);
+            label11.Font = new Font("Segoe UI", 16.2F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label11.Location = new Point(16, 249);
             label11.Name = "label11";
-            label11.Size = new Size(256, 35);
+            label11.Size = new Size(216, 38);
             label11.TabIndex = 13;
             label11.Text = "Loại Tài Khoản:";
             // 
@@ -954,7 +827,7 @@
             // 
             panel25.BackColor = Color.Black;
             panel25.BackgroundImageLayout = ImageLayout.None;
-            panel25.Location = new Point(3, 153);
+            panel25.Location = new Point(3, 277);
             panel25.Name = "panel25";
             panel25.Size = new Size(550, 10);
             panel25.TabIndex = 12;
@@ -962,10 +835,10 @@
             // label12
             // 
             label12.AutoSize = true;
-            label12.Font = new Font("Showcard Gothic", 16.2F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point, 0);
-            label12.Location = new Point(16, 66);
+            label12.Font = new Font("Segoe UI", 16.2F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label12.Location = new Point(16, 185);
             label12.Name = "label12";
-            label12.Size = new Size(216, 35);
+            label12.Size = new Size(188, 38);
             label12.TabIndex = 10;
             label12.Text = "Tên Hiển Thị:";
             // 
@@ -975,10 +848,10 @@
             txbDisplayName.BorderStyle = BorderStyle.None;
             txbDisplayName.Font = new Font("Showcard Gothic", 18F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point, 0);
             txbDisplayName.ForeColor = Color.Black;
-            txbDisplayName.Location = new Point(231, 63);
+            txbDisplayName.Location = new Point(201, 182);
             txbDisplayName.Name = "txbDisplayName";
             txbDisplayName.ReadOnly = true;
-            txbDisplayName.Size = new Size(322, 38);
+            txbDisplayName.Size = new Size(352, 38);
             txbDisplayName.TabIndex = 8;
             txbDisplayName.TextAlign = HorizontalAlignment.Center;
             // 
@@ -986,7 +859,7 @@
             // 
             panel26.BackColor = Color.Black;
             panel26.BackgroundImageLayout = ImageLayout.None;
-            panel26.Location = new Point(3, 94);
+            panel26.Location = new Point(3, 213);
             panel26.Name = "panel26";
             panel26.Size = new Size(550, 10);
             panel26.TabIndex = 9;
@@ -994,10 +867,10 @@
             // label13
             // 
             label13.AutoSize = true;
-            label13.Font = new Font("Showcard Gothic", 16.2F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point, 0);
+            label13.Font = new Font("Segoe UI", 16.2F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point, 0);
             label13.Location = new Point(16, 11);
             label13.Name = "label13";
-            label13.Size = new Size(245, 35);
+            label13.Size = new Size(216, 38);
             label13.TabIndex = 7;
             label13.Text = "Tên Tài Khoản:";
             // 
@@ -1007,9 +880,9 @@
             txbUserName.BorderStyle = BorderStyle.None;
             txbUserName.Font = new Font("Showcard Gothic", 18F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point, 0);
             txbUserName.ForeColor = Color.Black;
-            txbUserName.Location = new Point(258, 8);
+            txbUserName.Location = new Point(231, 8);
             txbUserName.Name = "txbUserName";
-            txbUserName.Size = new Size(295, 38);
+            txbUserName.Size = new Size(322, 38);
             txbUserName.TabIndex = 5;
             txbUserName.TextAlign = HorizontalAlignment.Center;
             // 
@@ -1021,6 +894,289 @@
             panel27.Name = "panel27";
             panel27.Size = new Size(550, 10);
             panel27.TabIndex = 6;
+            // 
+            // button1
+            // 
+            button1.BackColor = Color.GreenYellow;
+            button1.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            button1.Location = new Point(296, 0);
+            button1.Name = "button1";
+            button1.Size = new Size(139, 49);
+            button1.TabIndex = 4;
+            button1.Text = "Sửa";
+            button1.UseVisualStyleBackColor = false;
+            // 
+            // button3
+            // 
+            button3.BackColor = Color.GreenYellow;
+            button3.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            button3.Location = new Point(149, 0);
+            button3.Name = "button3";
+            button3.Size = new Size(139, 49);
+            button3.TabIndex = 5;
+            button3.Text = "Xóa";
+            button3.UseVisualStyleBackColor = false;
+            // 
+            // button4
+            // 
+            button4.BackColor = Color.GreenYellow;
+            button4.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            button4.Location = new Point(0, 0);
+            button4.Name = "button4";
+            button4.Size = new Size(139, 49);
+            button4.TabIndex = 6;
+            button4.Text = "Thêm";
+            button4.UseVisualStyleBackColor = false;
+            // 
+            // button5
+            // 
+            button5.BackColor = Color.GreenYellow;
+            button5.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            button5.Location = new Point(1, 0);
+            button5.Name = "button5";
+            button5.Size = new Size(139, 49);
+            button5.TabIndex = 10;
+            button5.Text = "Thêm";
+            button5.UseVisualStyleBackColor = false;
+            // 
+            // button6
+            // 
+            button6.BackColor = Color.GreenYellow;
+            button6.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            button6.Location = new Point(150, 0);
+            button6.Name = "button6";
+            button6.Size = new Size(139, 49);
+            button6.TabIndex = 9;
+            button6.Text = "Xóa";
+            button6.UseVisualStyleBackColor = false;
+            // 
+            // button7
+            // 
+            button7.BackColor = Color.GreenYellow;
+            button7.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            button7.Location = new Point(297, 0);
+            button7.Name = "button7";
+            button7.Size = new Size(139, 49);
+            button7.TabIndex = 8;
+            button7.Text = "Sửa";
+            button7.UseVisualStyleBackColor = false;
+            // 
+            // button8
+            // 
+            button8.BackColor = Color.GreenYellow;
+            button8.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            button8.Location = new Point(444, -1);
+            button8.Name = "button8";
+            button8.Size = new Size(139, 49);
+            button8.TabIndex = 7;
+            button8.Text = "Xem";
+            button8.UseVisualStyleBackColor = false;
+            // 
+            // button9
+            // 
+            button9.BackColor = Color.GreenYellow;
+            button9.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            button9.Location = new Point(1, 0);
+            button9.Name = "button9";
+            button9.Size = new Size(139, 49);
+            button9.TabIndex = 10;
+            button9.Text = "Thêm";
+            button9.UseVisualStyleBackColor = false;
+            // 
+            // button10
+            // 
+            button10.BackColor = Color.GreenYellow;
+            button10.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            button10.Location = new Point(150, 0);
+            button10.Name = "button10";
+            button10.Size = new Size(139, 49);
+            button10.TabIndex = 9;
+            button10.Text = "Xóa";
+            button10.UseVisualStyleBackColor = false;
+            // 
+            // button11
+            // 
+            button11.BackColor = Color.GreenYellow;
+            button11.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            button11.Location = new Point(297, 0);
+            button11.Name = "button11";
+            button11.Size = new Size(139, 49);
+            button11.TabIndex = 8;
+            button11.Text = "Sửa";
+            button11.UseVisualStyleBackColor = false;
+            // 
+            // button12
+            // 
+            button12.BackColor = Color.GreenYellow;
+            button12.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            button12.Location = new Point(444, -1);
+            button12.Name = "button12";
+            button12.Size = new Size(139, 49);
+            button12.TabIndex = 7;
+            button12.Text = "Xem";
+            button12.UseVisualStyleBackColor = false;
+            // 
+            // button13
+            // 
+            button13.BackColor = Color.GreenYellow;
+            button13.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            button13.Location = new Point(1, 0);
+            button13.Name = "button13";
+            button13.Size = new Size(139, 49);
+            button13.TabIndex = 10;
+            button13.Text = "Thêm";
+            button13.UseVisualStyleBackColor = false;
+            // 
+            // button14
+            // 
+            button14.BackColor = Color.GreenYellow;
+            button14.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            button14.Location = new Point(150, 0);
+            button14.Name = "button14";
+            button14.Size = new Size(139, 49);
+            button14.TabIndex = 9;
+            button14.Text = "Xóa";
+            button14.UseVisualStyleBackColor = false;
+            // 
+            // button15
+            // 
+            button15.BackColor = Color.GreenYellow;
+            button15.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            button15.Location = new Point(297, 0);
+            button15.Name = "button15";
+            button15.Size = new Size(139, 49);
+            button15.TabIndex = 8;
+            button15.Text = "Sửa";
+            button15.UseVisualStyleBackColor = false;
+            // 
+            // button16
+            // 
+            button16.BackColor = Color.GreenYellow;
+            button16.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            button16.Location = new Point(444, -1);
+            button16.Name = "button16";
+            button16.Size = new Size(139, 49);
+            button16.TabIndex = 7;
+            button16.Text = "Xem";
+            button16.UseVisualStyleBackColor = false;
+            // 
+            // comboBox2
+            // 
+            comboBox2.BackColor = Color.Gold;
+            comboBox2.FormattingEnabled = true;
+            comboBox2.Location = new Point(142, 185);
+            comboBox2.Name = "comboBox2";
+            comboBox2.Size = new Size(414, 28);
+            comboBox2.TabIndex = 17;
+            // 
+            // label10
+            // 
+            label10.AutoSize = true;
+            label10.Font = new Font("Segoe UI", 16.2F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label10.Location = new Point(18, 178);
+            label10.Name = "label10";
+            label10.Size = new Size(124, 38);
+            label10.TabIndex = 16;
+            label10.Text = "Khu vực";
+            // 
+            // panel24
+            // 
+            panel24.BackColor = Color.Black;
+            panel24.BackgroundImageLayout = ImageLayout.None;
+            panel24.Location = new Point(5, 206);
+            panel24.Name = "panel24";
+            panel24.Size = new Size(550, 10);
+            panel24.TabIndex = 15;
+            // 
+            // comboBox3
+            // 
+            comboBox3.BackColor = Color.Gold;
+            comboBox3.FormattingEnabled = true;
+            comboBox3.Location = new Point(178, 241);
+            comboBox3.Name = "comboBox3";
+            comboBox3.Size = new Size(376, 28);
+            comboBox3.TabIndex = 20;
+            // 
+            // label14
+            // 
+            label14.AutoSize = true;
+            label14.Font = new Font("Segoe UI", 16.2F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label14.Location = new Point(16, 234);
+            label14.Name = "label14";
+            label14.Size = new Size(163, 38);
+            label14.TabIndex = 19;
+            label14.Text = "Trạng Thái:";
+            // 
+            // panel28
+            // 
+            panel28.BackColor = Color.Black;
+            panel28.BackgroundImageLayout = ImageLayout.None;
+            panel28.Location = new Point(3, 262);
+            panel28.Name = "panel28";
+            panel28.Size = new Size(550, 10);
+            panel28.TabIndex = 18;
+            // 
+            // label15
+            // 
+            label15.AutoSize = true;
+            label15.Font = new Font("Segoe UI", 16.2F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point, 0);
+            label15.Location = new Point(13, 65);
+            label15.Name = "label15";
+            label15.Size = new Size(146, 38);
+            label15.TabIndex = 18;
+            label15.Text = "Mật Khẩu";
+            // 
+            // textBox7
+            // 
+            textBox7.BackColor = Color.Gold;
+            textBox7.BorderStyle = BorderStyle.None;
+            textBox7.Font = new Font("Showcard Gothic", 18F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point, 0);
+            textBox7.ForeColor = Color.Black;
+            textBox7.Location = new Point(156, 62);
+            textBox7.Name = "textBox7";
+            textBox7.Size = new Size(394, 38);
+            textBox7.TabIndex = 16;
+            textBox7.TextAlign = HorizontalAlignment.Center;
+            // 
+            // panel29
+            // 
+            panel29.BackColor = Color.Black;
+            panel29.BackgroundImageLayout = ImageLayout.None;
+            panel29.Location = new Point(0, 93);
+            panel29.Name = "panel29";
+            panel29.Size = new Size(550, 10);
+            panel29.TabIndex = 17;
+            // 
+            // label16
+            // 
+            label16.AutoSize = true;
+            label16.Font = new Font("Segoe UI", 16.2F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point, 0);
+            label16.Location = new Point(16, 125);
+            label16.Name = "label16";
+            label16.Size = new Size(275, 38);
+            label16.TabIndex = 18;
+            label16.Text = "Nhập Lại Mật Khẩu";
+            // 
+            // textBox8
+            // 
+            textBox8.BackColor = Color.Gold;
+            textBox8.BorderStyle = BorderStyle.None;
+            textBox8.Font = new Font("Showcard Gothic", 18F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point, 0);
+            textBox8.ForeColor = Color.Black;
+            textBox8.Location = new Point(231, 122);
+            textBox8.Name = "textBox8";
+            textBox8.Size = new Size(322, 38);
+            textBox8.TabIndex = 16;
+            textBox8.TextAlign = HorizontalAlignment.Center;
+            // 
+            // panel30
+            // 
+            panel30.BackColor = Color.Black;
+            panel30.BackgroundImageLayout = ImageLayout.None;
+            panel30.Location = new Point(3, 153);
+            panel30.Name = "panel30";
+            panel30.Size = new Size(550, 10);
+            panel30.TabIndex = 17;
             // 
             // fAdmin
             // 
@@ -1082,12 +1238,9 @@
         private DataGridView dtgvBill;
         private Panel panel3;
         private Panel panel5;
-        private Button btnAddFood;
         private Panel panel4;
         private DataGridView dtgvFood;
         private Button btnShowFood;
-        private Button btnFix;
-        private Button btnDeleteFood;
         private TextBox txbID;
         private TextBox txbNameFood;
         private Label label5;
@@ -1098,12 +1251,7 @@
         private TextBox txbCategoryID;
         private Panel panel12;
         private TextBox textBox1;
-        private Button btnShowTable;
         private Panel panel13;
-        private Button btnShowCategory;
-        private Button btnEditCategory;
-        private Button btnDeleteCategory;
-        private Button btnAddCategory;
         private DataGridView dtgvCe;
         private Panel panel11;
         private Button button2;
@@ -1127,19 +1275,12 @@
         private Label label8;
         private TextBox textBox3;
         private Panel panel18;
-        private Button btnEditTable;
-        private Button btnDeleteTable;
-        private Button btnAddTable;
         private DataGridView dtgvTable;
         private Label label9;
         private Panel panel20;
         private TextBox txbTableName;
         private Panel panel19;
         private Panel panel21;
-        private Button btnShowAccount;
-        private Button btnEditAccount;
-        private Button btnDeleteAccount;
-        private Button btnAddAccount;
         private DataGridView dtgvAccount;
         private Panel panel23;
         private ComboBox cbAccountType;
@@ -1154,5 +1295,32 @@
         private Button btnResetPassWord;
         private Panel panel22;
         private TextBox textBox6;
+        private Button button4;
+        private Button button3;
+        private Button button1;
+        private Button button5;
+        private Button button6;
+        private Button button7;
+        private Button button8;
+        private Button button9;
+        private Button button10;
+        private Button button11;
+        private Button button12;
+        private Button button13;
+        private Button button14;
+        private Button button15;
+        private Button button16;
+        private ComboBox comboBox3;
+        private Label label14;
+        private Panel panel28;
+        private ComboBox comboBox2;
+        private Label label10;
+        private Panel panel24;
+        private Label label16;
+        private Label label15;
+        private TextBox textBox8;
+        private Panel panel30;
+        private TextBox textBox7;
+        private Panel panel29;
     }
 }

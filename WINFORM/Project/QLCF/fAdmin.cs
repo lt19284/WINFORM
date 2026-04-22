@@ -21,18 +21,18 @@ namespace QLCF
 
         void LoadAccountList()
         {
-           SqlConnection connection = new SqlConnection("Data Source=LAMTHUC-DEV;Initial Catalog=QLCF;Integrated Security=True");
+            SqlConnection connection = new SqlConnection("Data Source=LAMTHUC-DEV;Initial Catalog=QLCF;Integrated Security=True");
             // Mở kết Nối
             connection.Open();
 
             string query = "SELECT TenNguoiDung as [Tên Hiển Thị], TenDangNhap as [Tên Đăng Nhập] FROM dbo.TaiKhoan"; // Thực Hiện Câu Truy Vấn
-            
+
             SqlCommand command = new SqlCommand(query, connection); //Tạo Query
 
             DataTable dataTable = new DataTable();
 
             SqlDataAdapter adapter = new SqlDataAdapter(command);
-            
+
             adapter.Fill(dataTable);
 
             dtgvAccount.DataSource = dataTable;
@@ -84,6 +84,16 @@ namespace QLCF
         }
 
         private void textBox6_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label4_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnShowFood_Click(object sender, EventArgs e)
         {
 
         }
